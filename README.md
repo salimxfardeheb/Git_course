@@ -3,4 +3,4 @@ learning git
 
 write smth
 
-this peregraph for my second commit
+this peregraph is modified
