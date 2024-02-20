@@ -21,3 +21,6 @@ this peregraph is modified
 - `git log` to see all commmits
 
 - `git pull` get the latest version of repository
+
+- `git commit --amend`  to edit a comment of a commit
+    >type `i` to start editing => after editing type `esc` so you can so you can switch to command mode => type `:wq` to save and exit or `:q!` to exit without saving
