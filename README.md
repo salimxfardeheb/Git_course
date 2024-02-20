@@ -37,6 +37,10 @@ this peregraph is modified
 
 - `git checkout HEAD~{num}` se deplacer en fonction du **num** pas sur le commit precedant.
 
-- `git reset HEAD~1` annule les changement en deplaçant la referance en arriere dans le temps sur un commit elle est utilisé sur les branches locales
+- `git reset HEAD~1` annule les changement en deplaçant la referance en arriere dans le temps sur un commit elle est utilisé sur les branches locales.
 
-- `git revert HEAD` annuler des changement et partager les annulation 
+- `git revert HEAD` annuler des changement et partager les annulation.
+
+- `git cherry-pick <id-commit>` permet de cree un copie du commit et creer un nouveau commit. 
+
+- `git rebase -i HEAD~num` permet de reorganiser ou prendre ou laisser des commits en creant une copie.
