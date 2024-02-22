@@ -10,6 +10,8 @@ this peregraph is modified
 
 - `git add file_name (or . or * for all files)` add files to queue.
 
+- `git reset HEAD file-name` delete file from queue.
+
 - `git commit -m "comment of the mdificaton"` make the files we added ready to push .
 
 - `git push` push the files to the repository.
